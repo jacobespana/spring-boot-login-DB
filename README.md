@@ -1,4 +1,4 @@
-# ABC Banking Technical Use Case 
+# ABC Banking 
 
 MVP (Minimally Viable Product) for "Online Account Opening" critical project for ABC Banking. This app is intended to demonstrate the most basic functional/non-functional requirements for an online account opening application. 
 
