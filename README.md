@@ -26,6 +26,7 @@ https://www.oracle.com/technetwork/java/javase/downloads/index.html
 Make sure that the files are structured correctly, as demonstrated below - 
 
 ├── src
+
 │   └── main
 │       ├── java
 │       │   └── com
