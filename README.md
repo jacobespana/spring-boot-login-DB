@@ -68,6 +68,9 @@ Make sure that the files are structured correctly, as demonstrated below -
 │           └── welcome.jsp
 └── pom.xml
 ```
+cd to the directory holding the project
+
+```
 
 ## Built With
 
