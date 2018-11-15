@@ -1,6 +1,6 @@
-# Project Title
+# ABC Banking Technical Use Case 
 
-One Paragraph of project description goes here
+MVP (Minimally Viable Product) for "Online Account Opening" critical project for ABC Banking. This app is intended to demonstrate the most basic functional/non-functional requirements for an online account opening application. 
 
 ## Getting Started
 
@@ -8,80 +8,78 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+JDK 1.7+
+Maven 3+
+Bootstrap 4.1.3
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Install Maven 
 
-Say what the step will be
+https://maven.apache.org/install.html
 
-```
-Give the example
-```
+Install JDK 
 
-And repeat
+https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-```
-until finished
-```
+Make sure that the files are structured correctly, as demonstrated below - 
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── capgemini
+│       │           └── auth
+│       │               ├── model
+│       │               │   ├── Account.java
+│       │               │   └── User.java
+│       │               ├── repository
+│       │               │   ├── AccountRepository.java
+│       │               │   └── UserRepository.java
+│       │               ├── service
+│       │               │   ├── SecurityServiceImpl.java
+│       │               │   ├── SecurityService.java
+│       │               │   ├── UserDetailsServiceImpl.java
+│       │               │   ├── UserServiceImpl.java
+│       │               │   └── UserService.java
+│       │               ├── validator
+│       │               │   └── UserValidator.java
+│       │               ├── web
+│       │               │   └── UserController.java
+│       │               ├── WebApplication.java
+│       │               └── WebSecurityConfig.java
+│       ├── resources
+│       │   ├── application.properties
+│       │   └── validation.properties
+│       └── webapp
+│           ├── resources
+│           │   ├── css
+│           │   │   ├── bootstrap.min.css
+│           │   │   └── common.css
+│           │   └── js
+|           |       ├── popper.min.js
+│           │       └── bootstrap.min.js
+|           |
+|           ├── denyAppRequest.jsp
+│           ├── login.jsp
+│           ├── registration.jsp
+│           └── welcome.jsp
+└── pom.xml
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [SpringBoot](http://spring.io/projects/spring-boot) - The application framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [HSQLDB] (http://hsqldb.org/) - Database 
+* [Spring Security] (https://spring.io/projects/spring-security) - Authentication/ Access Control Framework
+* [Spring Data JPA] (http://hsqldb.org/) - Spring Data module for JPA base repo implementation
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Jacob Espana** - *Initial work* - [PurpleBooth](https://github.com/jacobespana)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
