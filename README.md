@@ -68,8 +68,10 @@ Make sure that the files are structured correctly, as demonstrated below -
 │           └── welcome.jsp
 └── pom.xml
 ```
-cd to the directory holding the project
+cd to the directory holding the project and run the following command - 
 
+```
+mvn spring-boot:run 
 ```
 
 ## Built With
