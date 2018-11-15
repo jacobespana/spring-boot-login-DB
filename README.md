@@ -28,44 +28,83 @@ Make sure that the files are structured correctly, as demonstrated below -
 ├── src
 
 │   └── main
+
 │       ├── java
+
 │       │   └── com
+
 │       │       └── capgemini
+
 │       │           └── auth
+
 │       │               ├── model
+
 │       │               │   ├── Account.java
+
 │       │               │   └── User.java
+
 │       │               ├── repository
+
 │       │               │   ├── AccountRepository.java
+
 │       │               │   └── UserRepository.java
+
 │       │               ├── service
+
 │       │               │   ├── SecurityServiceImpl.java
+
 │       │               │   ├── SecurityService.java
+
 │       │               │   ├── UserDetailsServiceImpl.java
+
 │       │               │   ├── UserServiceImpl.java
+
 │       │               │   └── UserService.java
+
 │       │               ├── validator
+
 │       │               │   └── UserValidator.java
+
 │       │               ├── web
+
 │       │               │   └── UserController.java
+
 │       │               ├── WebApplication.java
+
 │       │               └── WebSecurityConfig.java
+
 │       ├── resources
+
 │       │   ├── application.properties
+
 │       │   └── validation.properties
+
 │       └── webapp
+
 │           ├── resources
+
 │           │   ├── css
+
 │           │   │   ├── bootstrap.min.css
+
 │           │   │   └── common.css
+
 │           │   └── js
+
 |           |       ├── popper.min.js
+
 │           │       └── bootstrap.min.js
+
 |           |
+
 |           ├── denyAppRequest.jsp
+
 │           ├── login.jsp
+
 │           ├── registration.jsp
+
 │           └── welcome.jsp
+
 └── pom.xml
 
 ## Built With
