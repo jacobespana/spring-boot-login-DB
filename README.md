@@ -73,9 +73,9 @@ Make sure that the files are structured correctly, as demonstrated below -
 
 * [SpringBoot](http://spring.io/projects/spring-boot) - The application framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [HSQLDB] (http://hsqldb.org/) - Database 
-* [Spring Security] (https://spring.io/projects/spring-security) - Authentication/ Access Control Framework
-* [Spring Data JPA] (http://hsqldb.org/) - Spring Data module for JPA base repo implementation
+* [HSQLDB](http://hsqldb.org/) - Database 
+* [Spring Security](https://spring.io/projects/spring-security) - Authentication/ Access Control Framework
+* [Spring Data JPA](http://hsqldb.org/) - Spring Data module for JPA base repo implementation
 
 ## Authors
 
