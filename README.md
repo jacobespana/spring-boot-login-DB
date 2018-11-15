@@ -74,6 +74,18 @@ cd to the directory holding the project and run the following command -
 mvn spring-boot:run 
 ```
 
+Open web browser and go to -
+
+```
+localhost:8080
+```
+
+or
+
+```
+localhost:8080/login
+```
+
 ## Built With
 
 * [SpringBoot](http://spring.io/projects/spring-boot) - The application framework used
