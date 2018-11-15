@@ -79,7 +79,7 @@ Make sure that the files are structured correctly, as demonstrated below -
 
 ## Authors
 
-* **Jacob Espana** - *Initial work* - [PurpleBooth](https://github.com/jacobespana)
+* **Jacob Espana** [GitHub](https://github.com/jacobespana)
 
 ## License
 
