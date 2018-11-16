@@ -1,5 +1,6 @@
 package com.capgemini.auth.model;
 
+import java.io.File;
 import javax.persistence.*;
 import java.util.Set;
 
@@ -16,7 +17,8 @@ public class User {
     private String email;
     private String address;
     private String desiredAccountType;
-    private double salary;
+    private double income;
+    private File supportingDocs;
     private String password;
     private String passwordConfirm;
     private Set<Account> accounts;
@@ -95,12 +97,20 @@ public class User {
         this.desiredAccountType = desiredAccountType;
     }
     
-    public double getSalary() {
-        return salary;
+    public double getIncome() {
+        return income;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setIncome(double income) {
+        this.income = income;
+    }
+
+    public File getSupportingDocs() {
+        return supportingDocs;
+    }
+
+    public void setSupportingDocs(File supportingDocs) {
+        this.supportingDocs = supportingDocs;
     }
     
     public String getPassword() {
@@ -132,7 +142,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" + "id=" + id + ", username=" + username + ", firstName=" + firstName + ", lastName=" + lastName + ", DOB=" + DOB + ", phoneNumber=" + phoneNumber + ", email=" + email + ", address=" + address + ", desiredAccountType=" + desiredAccountType + ", salary=" + salary + ", password=" + password + ", passwordConfirm=" + passwordConfirm + ", accounts=" + accounts + '}';
+        return "User{" + "id=" + id + ", username=" + username + ", firstName=" + firstName + ", lastName=" + lastName + ", DOB=" + DOB + ", phoneNumber=" + phoneNumber + ", email=" + email + ", address=" + address + ", desiredAccountType=" + desiredAccountType + ", salary=" + income + ", password=" + password + ", passwordConfirm=" + passwordConfirm + ", accounts=" + accounts + '}';
     }
     
     

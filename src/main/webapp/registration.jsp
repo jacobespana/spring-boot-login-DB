@@ -102,10 +102,17 @@
                     </div>
                 </spring:bind>
 
-                <spring:bind path="salary">
+                <spring:bind path="income">
                     <div class="form-group ${status.error ? 'has-error' : ''}">
-                        <form:input type="text" path="salary" class="form-control" placeholder="Salary"></form:input>
-                        <form:errors path="salary"></form:errors>
+                        <form:input type="text" path="income" class="form-control"></form:input>
+                        <form:errors path="income"></form:errors>
+                    </div>
+                </spring:bind>
+                
+                <spring:bind path="supportingDocs">
+                    <div class="form-group ${status.error ? 'has-error' : ''}">
+                        <form:input type="file" path="supportingDocs" class="form-control"></form:input>
+                        <form:errors path="supportingDocs"></form:errors>
                     </div>
                 </spring:bind>
 

@@ -40,7 +40,7 @@ public class UserController {
         if (bindingResult.hasErrors()) {
             return "registration";
         }
-        if(userForm.getSalary() >=40000.00){
+        if(userForm.getIncome() >=40000.00){
             
             Account accountForm = new Account();
             accountForm.setUserId(userForm.getId());
