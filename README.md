@@ -6,6 +6,20 @@ MVP (Minimally Viable Product) for "Online Account Opening" critical project for
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+## Stack
+
+- Spring Security
+
+- Spring Boot
+
+- Spring Data JPA
+
+- Maven
+
+- JSP
+
+- HSQL
+
 ### Prerequisites
 
 JDK 1.7+
